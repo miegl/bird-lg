@@ -454,7 +454,7 @@ def get_as_name(_as):
         else:
             return "AS%s" % (_as)
 
-    return "AS%s | %s" % (_as, name.decode('utf-8'))
+    return "AS%s | %s" % (_as, name)
 
 
 def get_as_number_from_protocol_name(host, proto, protocol):
